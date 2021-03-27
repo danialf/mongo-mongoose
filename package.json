@@ -1,0 +1,16 @@
+{
+  "name": "mongo-users",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test-watch": "nodemon --exec \"npm test\"",
+    "test": "mocha -R min"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7",
+    "mocha": "^8.3.2"
+  }
+}
